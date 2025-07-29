@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Perimeter Calculator</title>
+    </head>
+    <body>
+       <script>
+        //varible to store user's choice
+        var choice=prompt(
+            "Welcome to the Perimeter Calculator.\n"+
+            "Please enter your choice:\n"+
+            "1.Perimeter of a Rectangle\n"+
+            "2.Perimeter of a Triangle\n"+
+            "3.Perimeter of a Circle\n"+
+            "4.Perimeter of a Parallelogram\n");
+            var result;
+            if (choice=== "1"){
+                var length=prompt("Enter the length:")
+                var width=prompt("Enter the width:")
+                result=Number(length)+Number(width)+Number(length)+Number(width);
+                alert("Perimeter of Rectangle:"+result);
+            }
+            if (choice=== "2"){
+                var base=prompt("Enter the base:")
+                var side=prompt("Enter the side:")
+                var side2=prompt("Enter the side2:")
+                result=Number(side)+Number(side)+Number(side);
+                alert("Perimeter of Triangle:"+result);
+            }
+            if (choice=== "3"){
+                var radius=prompt("Enter the radius:")
+                result=3.14*Number(diameter);
+                alert("Perimeter of Circle:"+result);
+            }
+            if (choice=== "4"){
+                var length=prompt("Enter the length:")
+                var width=prompt("Enter the width:")
+                result=Number(length)+Number(width)+Number(length)+Number(width);
+                alert("Perimeter of Parallelogram:"+result);
+            }
+       </script> 
+    </body>
+</html>
